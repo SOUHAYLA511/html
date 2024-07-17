@@ -91,3 +91,16 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+#work ul img {
+    width: 200px;
+    height : 200px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+
+#work ul {
+    display: flex;
+}
