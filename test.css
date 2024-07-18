@@ -1,0 +1,112 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+section p {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+/* Card styles */
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.card h6 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Festival section */
+.festivals {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.fes {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fes .content {
+    margin-bottom: 15px;
+}
+
+.fes h6 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.fes p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+/* Fans section */
+.fans-based {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.fans-based p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.fans-based a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fans-based a:hover {
+    text-decoration: underline;
+}
